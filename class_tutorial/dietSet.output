@@ -1,0 +1,103 @@
+GLPSOL: GLPK LP/MIP Solver, v4.48
+Parameter(s) specified in the command line:
+ --model dietSet.model --data dietSet.data
+Reading model section from dietSet.model...
+dietSet.model:20: warning: final NL missing before end of file
+20 lines were read
+Reading data section from dietSet.data...
+dietSet.data:221: warning: final NL missing before end of file
+221 lines were read
+Generating obj...
+Generating bndConstr...
+Model has been successfully generated
+GLPK Simplex Optimizer, v4.48
+12 rows, 64 columns, 661 non-zeros
+Preprocessing...
+11 rows, 64 columns, 597 non-zeros
+Scaling...
+ A: min|aij| =  1.000e-01  max|aij| =  1.547e+04  ratio =  1.547e+05
+GM: min|aij| =  3.387e-02  max|aij| =  2.952e+01  ratio =  8.717e+02
+EQ: min|aij| =  1.147e-03  max|aij| =  1.000e+00  ratio =  8.717e+02
+Constructing initial basis...
+Size of triangular part = 11
+      0: obj =   0.000000000e+00  infeas =  1.200e+01 (0)
+*     8: obj =   7.342117654e+00  infeas =  0.000e+00 (0)
+*    21: obj =   9.560078273e-01  infeas =  0.000e+00 (0)
+OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.4 Mb (425862 bytes)
+Display statement at line 15
+x[Frozen_Broccoli].val = 0
+x[Carrots_Raw].val = 0.235817810889784
+x[Celery_Raw].val = 0
+x[Frozen_Corn].val = 0
+x[Lettuce_Iceberg_Raw].val = 0
+x[Peppers_Sweet_Raw].val = 0
+x[Potatoes_Baked].val = 3.54494477652071
+x[Tofu].val = 0
+x[Roasted_Chicken].val = 0
+x[Spaghetti_W_Sauce].val = 0
+x[Tomato_Red_Ripe_Raw].val = 0
+x[Apple_Raw_W_Skin].val = 0
+x[Banana].val = 0
+x[Grapes].val = 0
+x[Kiwifruit_Raw_Fresh].val = 0
+x[Oranges].val = 0
+x[Bagels].val = 0
+x[Wheat_Bread].val = 0
+x[White_Bread].val = 0
+x[Oatmeal_Cookies].val = 0
+x[Apple_Pie].val = 0
+x[Chocolate_Chip_Cookies].val = 0
+x[Butter_Regular].val = 0
+x[Cheddar_Cheese].val = 0
+x['3.3___Fat_Whole_Milk'].val = 0
+x['2___Lowfat_Milk'].val = 0
+x[Skim_Milk].val = 2.16784936259488
+x[Poached_Eggs].val = 0
+x[Scrambled_Eggs].val = 0
+x[Bologna_Turkey].val = 0
+x[Frankfurter__Beef].val = 0
+x[Ham_Sliced_Extralean].val = 0
+x[Kielbasa_Prk].val = 0
+x[Cap_N_Crunch].val = 0
+x[Cheerios].val = 0
+x[Corn_Flks__Kellogg_S].val = 0
+x[Raisin_Brn__Kellg_S].val = 0
+x[Rice_Krispies].val = 0
+x[Special_K].val = 0
+x[Oatmeal].val = 0
+x[Malt-O-Meal_Choc].val = 0
+x[Pizza_W_Pepperoni].val = 0
+x[Taco].val = 0
+x[Hamburger_W_Toppings].val = 0
+x[Hotdog__Plain].val = 0
+x[Couscous].val = 0
+x[White_Rice].val = 0
+x[Macaroni_Ckd].val = 0
+x[Peanut_Butter].val = 3.60077591465081
+x[Pork].val = 0
+x[Sardines_in_Oil].val = 0
+x[White_Tuna_in_Water].val = 0
+x[Popcorn_Air-Popped].val = 4.82322907012991
+x[Potato_Chips_Bbqflvr].val = 0
+x[Pretzels].val = 0
+x[Tortilla_Chip].val = 0
+x[Chicknoodl_Soup].val = 0
+x[Splt_Pea___Hamsoup].val = 0
+x[Vegetbeef_Soup].val = 0
+x[Neweng_Clamchwd].val = 0
+x[Tomato_Soup].val = 0
+x[New_E_Clamchwd_W_Mlk].val = 0
+x[Crm_Mshrm_Soup_W_Mlk].val = 0
+x[Beanbacn_Soup_W_Watr].val = 0
+----- 
+Optimizer says to eat 0.235818 units of food Carrots_Raw 
+Optimizer says to eat 3.544945 units of food Potatoes_Baked 
+Optimizer says to eat 2.167849 units of food Skim_Milk 
+Optimizer says to eat 3.600776 units of food Peanut_Butter 
+Optimizer says to eat 4.823229 units of food Popcorn_Air-Popped 
+ The bill for the food will be $ 0.956008 
+Bon appetit! 
+ -----
+Model has been successfully processed

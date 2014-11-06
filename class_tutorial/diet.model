@@ -1,0 +1,23 @@
+param NFoods; param NNutrients;
+param caloricMatrix {i in 1..NFoods, j in 1..NNutrients};
+param lb {i in 1..NNutrients };
+param ub {i in 1..NNutrients };
+param costs { i in 1..NFoods};
+
+var x{ i in 1..NFoods} >= 0;
+
+minimize obj: sum{i in 1..NFoods} costs[i] * x[i];
+
+s.t.
+
+bndConstr {k in 1..NNutrients}: lb[k] <= sum{i in 1..NFoods} x[i] * caloricMatrix[i,k] <= ub[k];
+
+
+
+
+solve;
+
+display   x;
+display obj;
+
+end;

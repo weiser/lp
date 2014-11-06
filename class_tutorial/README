@@ -1,0 +1,81 @@
+** Tutorial on using the GNU Linear Programming Kit **
+
+------------------
+
+File: ex1.ampl
+
+The direct input of a linear program, as shown in the first part of the tutorial.
+
+To Run: 
+
+  glpsol --math ex1.ampl
+
+File: ex1.ampl.output
+
+The output obtained for ex1.ampl on a MAC OSX 10.8 install is in this file.
+
+------------------
+
+File: standardForm.model
+
+A model file for standard form LP.
+
+File: ex1.data
+
+Data for the example. Same problem as ex1.ampl. 
+The model file for this data is standardForm.model
+
+
+To Run: 
+
+  glpsol --model standardForm.model --data ex1.data 
+
+
+File: ex1_model_data.output
+
+The output obtained for standardForm.model and 
+ex1.data on a MAC OSX 10.8 install is in this file.
+
+
+--------------------
+
+File: diet.model 
+
+The model file for the diet problem (original version).
+
+File: diet.data
+
+The data file to go with this model. The data is cut and paste from
+the spreadsheet data for the problem.
+
+
+To Run:
+
+glpsol --model diet.model --data diet.data
+
+File: diet.output 
+
+The output for diet.model and diet.data
+
+------------------------------
+
+File: dietSet.model
+
+More advanced model with names of the foods/nutrients and pretty
+printing of the result.
+
+
+File: dietSet.data
+
+Data for the advanced model
+
+To Run:
+
+glpsol --model dietSet.model --data dietSet.data
+
+File: dietSet.output
+
+Output for dietSet.model and dietSet.data
+
+------------------------------
+

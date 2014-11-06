@@ -1,0 +1,95 @@
+GLPSOL: GLPK LP/MIP Solver, v4.48
+Parameter(s) specified in the command line:
+ --model diet.model --data diet.data
+Reading model section from diet.model...
+23 lines were read
+Reading data section from diet.data...
+diet.data:166: warning: final NL missing before end of file
+166 lines were read
+Generating obj...
+Generating bndConstr...
+Model has been successfully generated
+GLPK Simplex Optimizer, v4.48
+12 rows, 64 columns, 661 non-zeros
+Preprocessing...
+11 rows, 64 columns, 597 non-zeros
+Scaling...
+ A: min|aij| =  1.000e-01  max|aij| =  1.547e+04  ratio =  1.547e+05
+GM: min|aij| =  3.387e-02  max|aij| =  2.952e+01  ratio =  8.717e+02
+EQ: min|aij| =  1.147e-03  max|aij| =  1.000e+00  ratio =  8.717e+02
+Constructing initial basis...
+Size of triangular part = 11
+      0: obj =   0.000000000e+00  infeas =  1.200e+01 (0)
+*     8: obj =   7.342117654e+00  infeas =  0.000e+00 (0)
+*    21: obj =   9.560078273e-01  infeas =  0.000e+00 (0)
+OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.4 Mb (377283 bytes)
+Display statement at line 20
+x[1].val = 0
+x[2].val = 0.235817810889784
+x[3].val = 0
+x[4].val = 0
+x[5].val = 0
+x[6].val = 0
+x[7].val = 3.54494477652071
+x[8].val = 0
+x[9].val = 0
+x[10].val = 0
+x[11].val = 0
+x[12].val = 0
+x[13].val = 0
+x[14].val = 0
+x[15].val = 0
+x[16].val = 0
+x[17].val = 0
+x[18].val = 0
+x[19].val = 0
+x[20].val = 0
+x[21].val = 0
+x[22].val = 0
+x[23].val = 0
+x[24].val = 0
+x[25].val = 0
+x[26].val = 0
+x[27].val = 2.16784936259488
+x[28].val = 0
+x[29].val = 0
+x[30].val = 0
+x[31].val = 0
+x[32].val = 0
+x[33].val = 0
+x[34].val = 0
+x[35].val = 0
+x[36].val = 0
+x[37].val = 0
+x[38].val = 0
+x[39].val = 0
+x[40].val = 0
+x[41].val = 0
+x[42].val = 0
+x[43].val = 0
+x[44].val = 0
+x[45].val = 0
+x[46].val = 0
+x[47].val = 0
+x[48].val = 0
+x[49].val = 3.60077591465081
+x[50].val = 0
+x[51].val = 0
+x[52].val = 0
+x[53].val = 4.82322907012991
+x[54].val = 0
+x[55].val = 0
+x[56].val = 0
+x[57].val = 0
+x[58].val = 0
+x[59].val = 0
+x[60].val = 0
+x[61].val = 0
+x[62].val = 0
+x[63].val = 0
+x[64].val = 0
+Display statement at line 21
+obj.val = 0.956007827321616
+Model has been successfully processed
